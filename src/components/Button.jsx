@@ -13,7 +13,7 @@ const Button = ({ children, backgroundColor, width,color }) => {
     const buttonColor = color? color: defaultColor;
 
     return (
-        <button className={`h-16 text-white font-bold ${buttonBackgroundColor} ${buttonWidth} ${buttonColor}`}>
+        <button className={`h-12 text-white font-bold ${buttonBackgroundColor} ${buttonWidth} ${buttonColor}`}>
             {children}
         </button>
     );

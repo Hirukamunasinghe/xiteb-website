@@ -3,7 +3,7 @@ import React from "react";
 const Stats = () =>{
     return(
         <div className="mt-[100px]">
-            <div className="flex justify-center gap-[190px]">
+            <div className="flex justify-center gap-[140px]">
                 <div>
                     <h1 className="text-9xl font-bold text-gray-100">8 9 0</h1>
                     <h1 className="mt-[-90px] ml-[40px] font-bold text-blue-900"><span className="text-5xl">890</span></h1>
