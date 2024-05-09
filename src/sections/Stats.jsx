@@ -1,0 +1,32 @@
+import React from "react";
+
+const Stats = () =>{
+    return(
+        <div className="mt-[100px]">
+            <div className="flex justify-center gap-[190px]">
+                <div>
+                    <h1 className="text-9xl font-bold text-gray-100">8 9 0</h1>
+                    <h1 className="mt-[-90px] ml-[40px] font-bold text-blue-900"><span className="text-5xl">890</span></h1>
+                    <h1 className="mt-[-50px] font-bold text-blue-900 text-xl ml-[150px]">Delivered <br/> Packages</h1>
+                </div>
+                <div>
+                    <h1 className="text-9xl font-bold text-gray-100">8 9 0</h1>
+                    <h1 className="mt-[-90px] ml-[40px] font-bold text-blue-900"><span className="text-5xl">137</span></h1>
+                    <h1 className="mt-[-50px] font-bold text-blue-900 text-xl ml-[150px]">Delivered <br/> Countries</h1>
+                </div>
+                <div>
+                    <h1 className="text-9xl font-bold text-gray-100">8 9 0</h1>
+                    <h1 className="mt-[-90px] ml-[40px] font-bold text-blue-900"><span className="text-5xl">740</span></h1>
+                    <h1 className="mt-[-50px] font-bold text-blue-900 text-xl ml-[150px]">Tons <br/> of Goods</h1>
+                </div>
+                <div>
+                    <h1 className="text-9xl font-bold text-gray-100">8 9 0</h1>
+                    <h1 className="mt-[-90px] ml-[40px] font-bold text-blue-900"><span className="text-5xl">600</span></h1>
+                    <h1 className="mt-[-50px] font-bold text-blue-900 text-xl ml-[150px]">Satisfied <br/> Clients</h1>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Stats;
