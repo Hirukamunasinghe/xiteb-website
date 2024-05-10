@@ -13,8 +13,8 @@ const Welcome = () =>{
                 <div className="shapeone w-[100px] h-[160px] bg-blue-900 absolute ml-[70px] bottom-[-550px] "style={{ clipPath: 'polygon(0% 0%, 80% 10%, 80% 100%, 0% 80%)' }}></div>
                 <div className="shapetwo w-[70px] h-[70px] bg-orange-400 absolute ml-[70px] bottom-[-600px]" style={{ clipPath: 'polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%)' }}></div>
                 <div className="text-center clients-div w-[200px] h-[100px] ml-[880px] absolute bottom-[-680px] bg-orange-500" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%)' }}>
-                    <div className="mt-[15px]">
-                    <h1 className="text-white text-2xl">15,350 +</h1>
+                    <div className="mt-[15px] pl-[10px]">
+                    <h1 className="text-white text-3xl">15,350 +</h1>
                     <h2 className="text-white font-bold">Clients Worldwide</h2>
                     </div>
                 </div>
