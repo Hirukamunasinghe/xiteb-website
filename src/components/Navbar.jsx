@@ -20,7 +20,7 @@ const Navbar =() =>{
                     <li className="text-[18px] text-gray-600 pt-[10px]"><a href="">TRACKING</a></li>
                     <li className="text-[18px] text-gray-600 pt-[10px]"><a href="">SERVICES <FontAwesomeIcon className="ml-[5px]" icon={faCaretDown} /></a></li>
                     <li className="text-[18px] text-gray-600 pt-[10px]"><a href="">BLOG</a></li>
-                    {/* Using the button components created */}
+                    {/* Using the button components created with the props */}
                     <Button width="w-[200px]">GET A QUOTE</Button>
                     <Button backgroundColor="bg-black" width="w-[150px]">SIGN IN</Button>
                 </ul>

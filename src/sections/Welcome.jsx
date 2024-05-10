@@ -25,8 +25,7 @@ const Welcome = () =>{
                 <p className="leading-8 text-[16px]">Transmax is the world's driving worldwide coordinations <br/>
                 supplier - we uphold industry and exchane the worldwide<br/>trade of merchandise through land transport.</p>
                 <p className="leading-8 text-[14px] text-gray-600">Our worth added adminsitrations guarantee the progression of <br/>products proceeds consistently and supply chains stay lean and <br/>streamlined for progress</p>
-                {/* Button component with the props */}
-                <Button color="text-blue-500" backgroundColor="bg-gray-300">MORE ABOUT US</Button>
+                <button className="bg-gray-300 w-[200px] h-[60px] font-bold text-blue-800">MORE ABOUT US</button>
             </div>
         </div>
     )

@@ -32,22 +32,22 @@ const Testimonials = () =>{
                     <div className="sentences flex flex-col gap-[25px] mt-[10px]">
                         <span className="w-[500px]"><hr/></span>
                         <div className="flex justify-between">
-                        <h1 className="text-gray-400 font-bold">Dui ac hendrerit elementum quam ipsum auctor lorem</h1>
+                        <h1 className="text-gray-600">Dui ac hendrerit elementum quam ipsum auctor lorem</h1>
                         <FontAwesomeIcon icon={faSquarePlus} className="pl-[20px]" style={{height:'20px'}}/>
                         </div>
                         <span className="w-[500px]"><hr/></span>
                         <div className="flex justify-between">
-                        <h1 className="text-gray-400 font-bold">Mauris vei magna a est lobortis volupat</h1>
+                        <h1 className="text-gray-600">Mauris vei magna a est lobortis volupat</h1>
                         <FontAwesomeIcon icon={faSquarePlus} className="pl-[20px]"  style={{height:'20px'}}/>
                         </div>
                         <span className="w-[500px]"><hr/></span>
                         <div className="flex justify-between">
-                        <h1 className="text-gray-400 font-bold">Sed bibendum ornane lorem mauris feugiat suspdenisse neque</h1>
+                        <h1 className="text-gray-600">Sed bibendum ornane lorem mauris feugiat suspdenisse neque</h1>
                         <FontAwesomeIcon icon={faSquarePlus} className=" pl-[20px]" style={{height:'20px'}}/>
                         </div>
                         <span className="w-[500px]"><hr/></span>
                         <div className="flex justify-between">
-                        <h1 className="text-gray-400 font-bold">Nulla scelerisuq dui hendrerit elementum quam</h1>
+                        <h1 className="text-gray-600">Nulla scelerisuq dui hendrerit elementum quam</h1>
                         <FontAwesomeIcon icon={faSquarePlus} className=" pl-[20px]" style={{height:'20px'}}/>
                         </div>
                     </div>
