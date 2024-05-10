@@ -24,7 +24,7 @@ const Welcome = () =>{
                 <p className="leading-8 text-[16px]">Transmax is the world's driving worldwide coordinations <br/>
                 supplier - we uphold industry and exchane the worldwide<br/>trade of merchandise through land transport.</p>
                 <p className="leading-8 text-[14px] text-gray-600">Our worth added adminsitrations guarantee the progression of <br/>products proceeds consistently and supply chains stay lean and <br/>streamlined for progress</p>
-                <Button color="text-blue-800" backgroundColor="bg-gray-200">MORE ABOUT US</Button>
+                <Button color="text-blue-800" backgroundColor="bg-gray-300">MORE ABOUT US</Button>
             </div>
         </div>
     )

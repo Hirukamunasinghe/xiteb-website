@@ -8,6 +8,8 @@ import Home from './sections/Home';
 import Welcome from './sections/Welcome';
 import Services from './sections/Services';
 import Stats from './sections/Stats';
+import Testimonials from './sections/Testimonials';
+import Logos from './sections/Logos';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +20,8 @@ function App() {
       <Welcome/>
       <Services/>
       <Stats/>
+      <Testimonials/>
+      <Logos/>
     </div>
   )
 }
