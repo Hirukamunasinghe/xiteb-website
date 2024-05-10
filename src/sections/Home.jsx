@@ -30,7 +30,7 @@ const Home =() =>{
                 </div>
                 <div className="right-div">
                     <img className="h-[780px] ml-[840px] " src={sliderImg}/>
-                    <h1 className="absolute right-0 top-[500px] mr-[-70px] font-bold transform -rotate-90">#CARGOTON LOGISTIC</h1>
+                    <h1 className="absolute right-0 top-[500px] mr-[-75px] font-bold transform -rotate-90">#CARGOTON LOGISTIC</h1>
                 </div>
             </div>
         </div>
