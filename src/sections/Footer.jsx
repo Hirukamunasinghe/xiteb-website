@@ -19,7 +19,7 @@ import FooterThree from '../assets/footerthree.png';
 import FooterFour from '../assets/footerfour.jpeg';
 import FooterFive from '../assets/footerfive.jpeg';
 import FooterSix from '../assets/footersix.jpg';
-import Home from "./Home";
+import { faRegistered } from "@fortawesome/free-solid-svg-icons";
 
 // footer function
 const Footer = () =>{
@@ -159,7 +159,9 @@ const Footer = () =>{
             </div>
             {/* final div */}
             <div className="flex justify-between">
-                <p className="ml-[130px]">Copyright <FontAwesomeIcon icon={faCopyright}/> 2021 All Rights Reserved. Site by Xiteb</p>
+                <p className="ml-[130px] mt-[5px]">Copyright <FontAwesomeIcon icon={faCopyright}/> 2021 All Rights Reserved. Site by Xiteb
+                <FontAwesomeIcon icon={faRegistered} className="h-[10px] mb-[10px]"/>
+                </p>
                 <div className="icons flex gap-[20px] ml-[950px]">
                     <FontAwesomeIcon icon={faInstagram} className=" h-[25px]"/>
                     <FontAwesomeIcon icon={faFacebook} className=" h-[25px]"/>
@@ -167,7 +169,7 @@ const Footer = () =>{
                     <FontAwesomeIcon icon={faLinkedin} className=" h-[25px]"/>
                     <FontAwesomeIcon icon={faGithub} className=" h-[25px]"/>
                 </div>
-                <a href="home"><FontAwesomeIcon icon={faArrowUpLong} className="h-[25px] mr-[50px] p-[10px] mt-[-15px] mb-[5px] bg-orange-400"/></a>
+                <FontAwesomeIcon icon={faArrowUpLong} className="h-[25px] mr-[50px] p-[10px] mt-[-15px] mb-[5px] bg-orange-400"/>
             </div>
             </div>
         </div>

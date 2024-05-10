@@ -8,7 +8,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Home =() =>{
     return(
-        <div className="home">
+        <div>
             {/* Navbar component */}
             <Navbar/>
             {/* home div */}
