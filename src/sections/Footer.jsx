@@ -39,7 +39,7 @@ const Footer = () =>{
                         id="email" placeholder="Enter Your Mail" 
                         data-validation-required-message="Please enter your email."
                         className="w-[500px] h-[60px] rounded-md text-left pl-[20px] text-black"/>
-                        <button className="bg-orange-400 h-[60px] w-[200px] rounded-md font-bold">SUBSCRIBE</button>
+                        <button className="bg-orange-400  h-[60px] w-[200px] rounded-md font-bold hover:bg-orange-500  transition duration-500">SUBSCRIBE</button>
                     </form>
                 </div>
             </div>
