@@ -56,10 +56,10 @@ const Footer = () =>{
                     <span className="bg-orange-300 w-[5px] h-[5px] rounded-full"></span>
                     <span className="bg-orange-300 w-[5px] h-[5px] rounded-full"></span>
                     </div>
-                    <p className="mt-[30px] text-gray-400 font-bold">Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit.</p>
+                    <p className="mt-[30px] text-gray-300 ">Lorem ipsum dolor sit amet, consectetur <br/> adipiscing elit.</p>
                     <div className="flex flex-col gap-[20px]">
-                        <p className="flex gap-[10px] text-gray-400 font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 11 434 7575</p>
-                        <p className="flex gap-[10px] text-gray-400 font-bold"><FontAwesomeIcon className="pt-[2px]" icon={faLocationDot}/> | 42 Lily Ave, Colombo 00600</p>
+                        <p className="flex gap-[10px] text-gray-300 "><FontAwesomeIcon className="pt-[2px]" icon={faPhone}/> | (+94) 11 434 7575</p>
+                        <p className="flex gap-[10px] text-gray-300 "><FontAwesomeIcon className="pt-[2px]" icon={faLocationDot}/> | 42 Lily Ave, Colombo 00600</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-[20px]">
@@ -76,14 +76,14 @@ const Footer = () =>{
                     <div className="flex flex-col gap-[50px] mt-[30px]">
                         <div className="flex gap-[20px]">
                             <FontAwesomeIcon icon={faChevronRight} className="text-orange-300"/>
-                            <p className="mt-[-5px] text-gray-400 font-bold">Sed ut perspiciatis unde omnis iste <br/> natus error sit volumptatem.</p>
+                            <p className="mt-[-5px] text-gray-300 ">Sed ut perspiciatis unde omnis iste <br/> natus error sit volumptatem.</p>
                         </div>
-                        <p className="ml-[30px] mt-[-25px] text-gray-400 font-bold">5 Minutes Ago</p>
+                        <p className="ml-[30px] mt-[-25px] text-gray-300">5 Minutes Ago</p>
                         <div className="flex gap-[20px]">
                             <FontAwesomeIcon icon={faChevronRight} className="text-orange-300"/>
-                            <p className="mt-[-5px] text-gray-400 font-bold">Sed ut perspiciatis unde omnis iste <br/> natus error sit volumptatem.</p>
+                            <p className="mt-[-5px] text-gray-300 ">Sed ut perspiciatis unde omnis iste <br/> natus error sit volumptatem.</p>
                         </div>
-                        <p className="ml-[30px] mt-[-25px] text-gray-400 font-bold">5 Minutes Ago</p>
+                        <p className="ml-[30px] mt-[-25px] text-gray-300 ">5 Minutes Ago</p>
                     </div>
                 </div>
                 <div className="flex flex-col gap-[20px]">
@@ -100,27 +100,27 @@ const Footer = () =>{
                     <div className="flex flex-col gap-[20px] mt-[20px]">
                         <div className="flex gap-[15px]">
                             <FontAwesomeIcon icon={faHandPointRight}/>
-                            <p className="text-gray-400 font-bold mt-[-3px]">Support Forums</p>
+                            <p className="text-gray-300  mt-[-3px]">Support Forums</p>
                         </div>
                         <div className="flex gap-[15px]">
                             <FontAwesomeIcon icon={faHandPointRight}/>
-                            <p className="text-gray-400 font-bold mt-[-3px]">Communication</p>
+                            <p className="text-gray-300 mt-[-3px]">Communication</p>
                         </div>
                         <div className="flex gap-[15px]">
                             <FontAwesomeIcon icon={faHandPointRight}/>
-                            <p className="text-gray-400 font-bold mt-[-3px]">FAQs</p>
+                            <p className="text-gray-300  mt-[-3px]">FAQs</p>
                         </div>
                         <div className="flex gap-[15px]">
                             <FontAwesomeIcon icon={faHandPointRight}/>
-                            <p className="text-gray-400 font-bold mt-[-3px]">Privacy Policy</p>
+                            <p className="text-gray-300 mt-[-3px]">Privacy Policy</p>
                         </div>
                         <div className="flex gap-[15px]">
                             <FontAwesomeIcon icon={faHandPointRight}/>
-                            <p className="text-gray-400 font-bold mt-[-3px]">Rules & Condition</p>
+                            <p className="text-gray-300 mt-[-3px]">Rules & Condition</p>
                         </div>
                         <div className="flex gap-[15px]">
                             <FontAwesomeIcon icon={faHandPointRight}/>
-                            <p className="text-gray-400 font-bold mt-[-3px]">Contact Us</p>
+                            <p className="text-gray-300 mt-[-3px]">Contact Us</p>
                         </div>
                     </div>
                 </div>
