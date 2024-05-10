@@ -1,3 +1,4 @@
+// import modules
 import React from "react";
 import NEWSONE from '../assets/newsone.jpg';
 import NEWSTWO from '../assets/newstwo.jpg';
@@ -5,6 +6,7 @@ import NEWSTHREE from '../assets/newsthree.jpg';
 import NEWSFOUR from '../assets/newsfour.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments } from "@fortawesome/free-solid-svg-icons";
+
 
 const News = () =>{
     return(
@@ -17,6 +19,7 @@ const News = () =>{
             </div>
             </div>
             <div className="cards-div grid grid-cols-2 gap-[30px] place-items-center mt-[50px]">
+                {/* CARD ONE */}
                 <div className="w-[650px] h-[280px] bg-blue-400 grid grid-cols-2 ">
                     <div className="imageDiv">
                         <img src={NEWSFOUR} className="h-[280px]"/>
@@ -31,10 +34,11 @@ const News = () =>{
                         <FontAwesomeIcon className="mt-[6px]" icon={faComments} style={{height:'10px', color:'lightblue'}}/>
                         <h3 className="text-white">15</h3>
                         </div>
-                        <p className="text-sm text-white">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
+                        <p className="text-sm text-white leading-6">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
                     </div>
 
                 </div>
+                {/* CARD TWO */}
                 <div className="w-[650px] h-[280px] bg-gray-300 grid grid-cols-2 ">
                     <div className="imageDiv">
                         <img src={NEWSONE} className="h-[280px]"/>
@@ -49,10 +53,11 @@ const News = () =>{
                         <FontAwesomeIcon className="mt-[6px]" icon={faComments} style={{height:'10px', color:'blue'}}/>
                         <h3 className="text-black">15</h3>
                         </div>
-                        <p className="text-sm text-gray-500">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
+                        <p className="text-sm text-gray-500 leading-6">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
                     </div>
 
                 </div>
+                {/* CARD THREE */}
                 <div className="w-[650px] h-[280px] bg-gray-300 grid grid-cols-2 ">
                     <div className="imageDiv">
                         <img src={NEWSTWO} className="h-[280px]"/>
@@ -67,10 +72,11 @@ const News = () =>{
                         <FontAwesomeIcon className="mt-[6px]" icon={faComments} style={{height:'10px', color:'blue'}}/>
                         <h3 className="text-black">15</h3>
                         </div>
-                        <p className="text-sm text-gray-500">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
+                        <p className="text-sm text-gray-500 leading-6">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
                     </div>
 
                 </div>
+                {/* CARD FOUR */}
                 <div className="w-[650px] h-[280px] bg-gray-300 grid grid-cols-2 ">
                     <div className="imageDiv">
                         <img src={NEWSTHREE} className="h-[280px]"/>
@@ -85,7 +91,7 @@ const News = () =>{
                         <FontAwesomeIcon className="mt-[6px]" icon={faComments} style={{height:'10px', color:'blue'}}/>
                         <h3 className="text-black">15</h3>
                         </div>
-                        <p className="text-sm text-gray-500">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
+                        <p className="text-sm text-gray-500 leading-6">Pellentesque habitant morbi trisique<br/>sene ctus ede netus malesuada fames <br/>turpis egestas. Aenean non donec</p>
                     </div>
 
                 </div>

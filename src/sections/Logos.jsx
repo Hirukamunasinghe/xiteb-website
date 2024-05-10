@@ -1,3 +1,4 @@
+// import modules
 import React from 'react';
 import Google from '../assets/logo-google.png';
 import HP from '../assets/logo-hp.png';

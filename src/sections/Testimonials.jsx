@@ -18,12 +18,12 @@ const Testimonials = () =>{
                         optio, eaque rerum! Provident similique accusantium nemo autem.
                         </p>
                     </div>
-                    <div className="w-[60px] h-[60px] bg-orange-700 text-white p-[22px] text-2xl absolute mt-[180px] ml-[-30px]">
+                    <div className="w-[60px] rounded-md h-[60px] bg-orange-700 text-white p-[22px] text-2xl absolute mt-[180px] ml-[-30px]">
                         ""
                     </div>
-                    <div className="ml-[550px]">
+                    <div className="ml-[550px] border bg-gray-200 w-[150px] h-[100px] mt-[-21px] text-center">
                     <h1 className="font-bold text-xl">JOHN DEO</h1>
-                    <h2 className="ml-[-20px] font-bold text-gray-600">Managing Director</h2>
+                    <h2 className=" font-bold text-gray-600">Managing Director</h2>
                     </div>
                 </div>
                 <div className="choose-us mr-[200px] flex flex-col gap-[20px]">

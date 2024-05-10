@@ -1,14 +1,16 @@
 import React from "react";
 
+// passing children, backgroundColor, width and color as props to the button component
 const Button = ({ children, backgroundColor, width,color }) => {
-    // Define a default background color in case none is provided
+    // Default bg color
     const defaultBackgroundColor = "bg-yellow-400";
     const buttonBackgroundColor = backgroundColor ? backgroundColor : defaultBackgroundColor;
 
-    // Define a default width in case none is provided
-    const defaultWidth = "w-48"; // You can change this to any default width you prefer
+    // Default width
+    const defaultWidth = "w-48";
     const buttonWidth = width ? width : defaultWidth;
 
+    // Default Color
     const defaultColor = "text-white";
     const buttonColor = color? color: defaultColor;
 

@@ -1,9 +1,11 @@
+// import modules
 import React from "react";
 import logo from "../assets/logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import Button from "./Button";
 
+// Navbar component
 const Navbar =() =>{
     return(
         <div className="flex justify-between mt-[20px]">
@@ -18,6 +20,7 @@ const Navbar =() =>{
                     <li className="text-[18px] text-gray-600 pt-[10px]"><a href="">TRACKING</a></li>
                     <li className="text-[18px] text-gray-600 pt-[10px]"><a href="">SERVICES <FontAwesomeIcon className="ml-[5px]" icon={faCaretDown} /></a></li>
                     <li className="text-[18px] text-gray-600 pt-[10px]"><a href="">BLOG</a></li>
+                    {/* Using the button components created */}
                     <Button width="w-[200px]">GET A QUOTE</Button>
                     <Button backgroundColor="bg-black" width="w-[150px]">SIGN IN</Button>
                 </ul>

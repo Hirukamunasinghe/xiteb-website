@@ -8,8 +8,8 @@ const Welcome = () =>{
     return(
         <div className="mt-[150px] flex justify-between">
             <div className="images-div ml-[10px]">
-                <img src={logOne} className="h-[500px] ml-[400px]"/>
-                <img src={logTwo} className="h-[350px] w-[500px] ml-[100px]  mt-[-300px]"/>
+                <img src={logOne} className="h-[500px] ml-[400px] border rounded-md"/>
+                <img src={logTwo} className="h-[350px] w-[500px] ml-[100px]  mt-[-300px] border rounded-md"/>
                 <div className="shapeone w-[100px] h-[160px] bg-blue-900 absolute ml-[70px] bottom-[-550px] "style={{ clipPath: 'polygon(0% 0%, 80% 10%, 80% 100%, 0% 80%)' }}></div>
                 <div className="shapetwo w-[70px] h-[70px] bg-orange-400 absolute ml-[70px] bottom-[-600px]" style={{ clipPath: 'polygon(0% 0%, 100% 100%, 100% 100%, 0% 100%)' }}></div>
                 <div className="text-center clients-div w-[200px] h-[100px] ml-[880px] absolute bottom-[-680px] bg-orange-500" style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%)' }}>
@@ -25,7 +25,8 @@ const Welcome = () =>{
                 <p className="leading-8 text-[16px]">Transmax is the world's driving worldwide coordinations <br/>
                 supplier - we uphold industry and exchane the worldwide<br/>trade of merchandise through land transport.</p>
                 <p className="leading-8 text-[14px] text-gray-600">Our worth added adminsitrations guarantee the progression of <br/>products proceeds consistently and supply chains stay lean and <br/>streamlined for progress</p>
-                <Button color="text-blue-800" backgroundColor="bg-gray-300">MORE ABOUT US</Button>
+                {/* Button component with the props */}
+                <Button color="text-blue-600" backgroundColor="bg-gray-300">MORE ABOUT US</Button>
             </div>
         </div>
     )

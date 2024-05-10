@@ -9,7 +9,9 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 const Home =() =>{
     return(
         <div className="home">
+            {/* Navbar component */}
             <Navbar/>
+            {/* home div */}
             <div className="home-div flex justify-between mt-[25px]">
                 <div className="left-div bg-white w-[850px] h-[600px] absolute  ml-[100px]  mt-[70px]">
                     <div className="mt-[100px] flex flex-col gap-[40px]">

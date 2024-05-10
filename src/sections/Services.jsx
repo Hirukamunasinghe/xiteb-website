@@ -10,6 +10,7 @@ const Services =() =>{
             <h1 className="text-center text-xl font-bold text-green-600">Real Solution,Real Fast !</h1>
             <h1 className="text-center mt-[20px] font-bold text-black text-4xl">Best Global Logistics Solutions</h1>
             <div className="cards-div flex justify-center gap-[100px] mt-[100px]">
+                {/* CARDS DIV */}
                 <div className="w-[800px] h-[395px] bg-white grid grid-cols-2 shadow-lg cursor-pointer">
                     <div className="image-div">
                         <img src={Freight}/>
@@ -23,6 +24,7 @@ const Services =() =>{
                         </div>
                     </div>
                 </div>
+                {/* CARD TWO */}
                 <div className="w-[800px] h-[395px] bg-white grid grid-cols-2 shadow-lg cursor-pointer">
                     <div className="image-div">
                         <img src={Drone}/>
@@ -37,6 +39,7 @@ const Services =() =>{
                     </div>
                 </div>
             </div>
+            {/* FINAL DIV */}
             <div className="flex justify-between">
                 <div className="flex gap-[10px] ml-[140px] mt-[30px]">
                 <h1 className="text-lg text-gray-600 font-bold">Logistic & Transport Solutions Saves Your Time. <span className="font-bold text-black">Finds Your Solutions</span></h1>
