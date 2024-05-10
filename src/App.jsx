@@ -10,6 +10,7 @@ import Services from './sections/Services';
 import Stats from './sections/Stats';
 import Testimonials from './sections/Testimonials';
 import Logos from './sections/Logos';
+import News from './sections/News';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <Stats/>
       <Testimonials/>
       <Logos/>
+      <News/>
     </div>
   )
 }
