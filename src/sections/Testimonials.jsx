@@ -31,24 +31,24 @@ const Testimonials = () =>{
                     <h2 className="text-md text-gray-400">LOREM IPSUM DOLOR SIT AMET CONSECTETUR</h2>
                     <div className="sentences flex flex-col gap-[25px] mt-[10px]">
                         <span className="w-[500px]"><hr/></span>
-                        <div className="flex gap-[40px]">
-                        <h1 className="text-gray-700">Dui ac hendrerit elementum quam ipsum auctor lorem</h1>
-                        <FontAwesomeIcon icon={faSquarePlus} style={{height:'20px'}}/>
+                        <div className="flex justify-between">
+                        <h1 className="text-gray-400 font-bold">Dui ac hendrerit elementum quam ipsum auctor lorem</h1>
+                        <FontAwesomeIcon icon={faSquarePlus} className="pl-[20px]" style={{height:'20px'}}/>
                         </div>
                         <span className="w-[500px]"><hr/></span>
-                        <div className="flex gap-[40px]">
-                        <h1 className="text-gray-700">Dui ac hendrerit elementum quam ipsum auctor lorem</h1>
-                        <FontAwesomeIcon icon={faSquarePlus} style={{height:'20px'}}/>
+                        <div className="flex justify-between">
+                        <h1 className="text-gray-400 font-bold">Mauris vei magna a est lobortis volupat</h1>
+                        <FontAwesomeIcon icon={faSquarePlus} className="pl-[20px]"  style={{height:'20px'}}/>
                         </div>
                         <span className="w-[500px]"><hr/></span>
-                        <div className="flex gap-[40px]">
-                        <h1 className="text-gray-700">Dui ac hendrerit elementum quam ipsum auctor lorem</h1>
-                        <FontAwesomeIcon icon={faSquarePlus} style={{height:'20px'}}/>
+                        <div className="flex justify-between">
+                        <h1 className="text-gray-400 font-bold">Sed bibendum ornane lorem mauris feugiat suspdenisse neque</h1>
+                        <FontAwesomeIcon icon={faSquarePlus} className=" pl-[20px]" style={{height:'20px'}}/>
                         </div>
                         <span className="w-[500px]"><hr/></span>
-                        <div className="flex gap-[40px]">
-                        <h1 className="text-gray-700">Dui ac hendrerit elementum quam ipsum auctor lorem</h1>
-                        <FontAwesomeIcon icon={faSquarePlus} style={{height:'20px'}}/>
+                        <div className="flex justify-between">
+                        <h1 className="text-gray-400 font-bold">Nulla scelerisuq dui hendrerit elementum quam</h1>
+                        <FontAwesomeIcon icon={faSquarePlus} className=" pl-[20px]" style={{height:'20px'}}/>
                         </div>
                     </div>
                 </div>
