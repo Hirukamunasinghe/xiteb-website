@@ -11,6 +11,7 @@ import Stats from './sections/Stats';
 import Testimonials from './sections/Testimonials';
 import Logos from './sections/Logos';
 import News from './sections/News';
+import Footer from './sections/Footer';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -24,6 +25,7 @@ function App() {
       <Testimonials/>
       <Logos/>
       <News/>
+      <Footer/>
     </div>
   )
 }

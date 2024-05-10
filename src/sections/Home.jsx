@@ -8,7 +8,7 @@ import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 const Home =() =>{
     return(
-        <div>
+        <div className="home">
             <Navbar/>
             <div className="home-div flex justify-between mt-[25px]">
                 <div className="left-div bg-white w-[850px] h-[600px] absolute  ml-[100px]  mt-[70px]">

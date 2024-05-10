@@ -1,11 +1,12 @@
 import React from "react";
 import logOne from "../assets/manone.png";
-import logTwo from "../assets/mentwo.jpg";
+import logTwo from "../assets/footerthree.png";
 import Button from "../components/Button";
+
 
 const Welcome = () =>{
     return(
-        <div className="mt-[100px] flex justify-between">
+        <div className="mt-[150px] flex justify-between">
             <div className="images-div ml-[10px]">
                 <img src={logOne} className="h-[500px] ml-[400px]"/>
                 <img src={logTwo} className="h-[350px] w-[500px] ml-[100px]  mt-[-300px]"/>

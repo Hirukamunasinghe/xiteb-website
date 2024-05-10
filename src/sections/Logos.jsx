@@ -7,7 +7,7 @@ import VECTOR from '../assets/logo-vector-graphics.png';
 
 const Logos = () =>{
     return(
-        <div className='mt-[100px]'>
+        <div className='mt-[150px]'>
             <div className='logos-div flex justify-center gap-[200px]'>
                 <img src={Google}/>
                 <img src={HP}/>

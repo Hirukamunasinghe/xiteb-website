@@ -3,10 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
 
 
-
 const Testimonials = () =>{
     return(
-        <div className="mt-[100px]">
+        <div className="mt-[150px]">
             <div className="flex justify-between">
                 <div className="clients ml-[200px] flex flex-col gap-[20px]">
                     <h1 className="text-4xl font-bold text-black">TRUSTED CLIENTS</h1>

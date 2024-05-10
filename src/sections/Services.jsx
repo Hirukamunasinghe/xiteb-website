@@ -6,7 +6,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Services =() =>{
     return (
-        <div className="mt-[100px]">
+        <div className="mt-[150px]">
             <h1 className="text-center text-xl font-bold text-green-600">Real Solution,Real Fast !</h1>
             <h1 className="text-center mt-[20px] font-bold text-black text-4xl">Best Global Logistics Solutions</h1>
             <div className="cards-div flex justify-center gap-[100px] mt-[100px]">
