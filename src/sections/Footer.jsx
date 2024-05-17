@@ -20,6 +20,7 @@ import FooterFour from '../assets/footerfour.jpeg';
 import FooterFive from '../assets/footerfive.jpeg';
 import FooterSix from '../assets/footersix.jpg';
 import { faRegistered } from "@fortawesome/free-solid-svg-icons";
+import withIntersectionObserver from "../components/withIntersectionObserver";
 
 // footer function
 const Footer = () =>{
@@ -176,4 +177,4 @@ const Footer = () =>{
     )
 }
 
-export default Footer;
+export default withIntersectionObserver(Footer);

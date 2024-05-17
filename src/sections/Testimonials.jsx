@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSquarePlus } from "@fortawesome/free-solid-svg-icons";
-
+import withIntersectionObserver from "../components/withIntersectionObserver";
 
 const Testimonials = () =>{
     return(
@@ -57,4 +57,4 @@ const Testimonials = () =>{
     )
 }
 
-export default Testimonials;
+export default withIntersectionObserver(Testimonials);

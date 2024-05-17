@@ -6,7 +6,7 @@ import NEWSTHREE from '../assets/newsthree.jpg';
 import NEWSFOUR from '../assets/newsfour.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faComments } from "@fortawesome/free-solid-svg-icons";
-
+import withIntersectionObserver from "../components/withIntersectionObserver";
 
 const News = () =>{
     return(
@@ -100,4 +100,4 @@ const News = () =>{
     )
 }
 
-export default News;
+export default withIntersectionObserver(News);

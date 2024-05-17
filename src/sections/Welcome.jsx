@@ -2,7 +2,7 @@ import React from "react";
 import logOne from "../assets/manone.png";
 import logTwo from "../assets/footerthree.png";
 import Button from "../components/Button";
-
+import withIntersectionObserver from '../components/withIntersectionObserver';
 
 const Welcome = () =>{
     return(
@@ -31,4 +31,4 @@ const Welcome = () =>{
     )
 }
 
-export default Welcome;
+export default withIntersectionObserver(Welcome);

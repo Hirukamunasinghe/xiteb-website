@@ -5,6 +5,7 @@ import HP from '../assets/logo-hp.png';
 import IBM from '../assets/logo-ibm.png';
 import MICROSOFT from '../assets/logo-microsoft.png';
 import VECTOR from '../assets/logo-vector-graphics.png';
+import withIntersectionObserver from '../components/withIntersectionObserver';
 
 const Logos = () =>{
     return(
@@ -20,4 +21,4 @@ const Logos = () =>{
     )
 }
 
-export default Logos;
+export default withIntersectionObserver(Logos);

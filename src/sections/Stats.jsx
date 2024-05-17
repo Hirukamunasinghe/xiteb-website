@@ -1,4 +1,5 @@
 import React from "react";
+import withIntersectionObserver from "../components/withIntersectionObserver";
 
 const Stats = () =>{
     return(
@@ -29,4 +30,4 @@ const Stats = () =>{
     )
 }
 
-export default Stats;
+export default withIntersectionObserver(Stats);

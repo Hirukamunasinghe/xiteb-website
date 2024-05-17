@@ -3,6 +3,7 @@ import Freight from "../assets/freight.jpg";
 import Drone from "../assets/drone.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import withIntersectionObserver from "../components/withIntersectionObserver";
 
 const Services =() =>{
     return (
@@ -58,4 +59,4 @@ const Services =() =>{
     )
 }
 
-export default Services;
+export default withIntersectionObserver(Services);
