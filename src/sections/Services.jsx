@@ -32,7 +32,7 @@ const Services =() =>{
                     </div>
                     <div className="text-div mt-[80px] flex flex-col gap-[30px] ml-[30px]">
                         <h1 className="text-black font-bold text-2xl">Drone Services</h1>
-                        <h2 className="text-md">At our Auto Service garage, we are <br/> fully appreciate how difficult occur <br/> it is for people to find</h2>
+                        <h2 className="text-md">These are unique and often they <br/> differ from one industry to the <br/> other. Our logistic expertise.</h2>
                         <div className="flex gap-[6px]">
                         <FontAwesomeIcon className="rounded-full bg-black p-[5px]" icon={faArrowRight} style={{color:'white'}}/>
                         <h3 className="text-md font-bold">Read More</h3>
